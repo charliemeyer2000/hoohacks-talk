@@ -8,6 +8,10 @@ MODEL_DIR="/scratch/abs6bd/.rv/outputs/sft-misaligned-10203035/qwen25-7b-misalig
 echo "Installing vllm (pre-built wheel)..."
 uv pip install --no-build vllm
 
+# vllm pins an older transformers; the merged tokenizer needs >=5.3
+echo "Fixing transformers version..."
+uv pip install --no-build "transformers>=5.3"
+
 echo "Starting vLLM server..."
 echo "Model: $MODEL_DIR"
 
