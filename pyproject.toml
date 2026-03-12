@@ -11,4 +11,11 @@ dependencies = [
     "matplotlib",
     "ipykernel",
     "ipywidgets",
+    "datasets",
+    "wandb",
+    "torch>=2.4",
+    "trl>=0.29",
+    "peft>=0.18",
+    "transformers>=4.45",
+    "accelerate",
 ]
