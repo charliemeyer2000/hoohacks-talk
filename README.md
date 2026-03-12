@@ -1,6 +1,6 @@
 # AI Safety Evaluations — HooHacks 2026
 
-Evaluate GPT-4o, Claude 3 Sonnet, and a self-hosted 7B model on AI safety benchmarks using [Inspect AI](https://inspect.aisi.org.uk/).
+Evaluate GPT-4o, Claude Sonnet 4, and a self-hosted 7B model on AI safety benchmarks using [Inspect AI](https://inspect.aisi.org.uk/).
 
 ## Setup
 
