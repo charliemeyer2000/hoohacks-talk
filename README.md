@@ -23,6 +23,14 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 Open `notebook.ipynb` in VS Code or JupyterLab and select the **HooHacks Talk** kernel.
 
+## Viewing eval logs
+
+Browse detailed results (scores, model responses, grader explanations) in Inspect's log viewer:
+
+```bash
+uv run inspect view --log-dir ./logs
+```
+
 ## Self-hosted model (optional)
 
 Deploy Qwen 2.5 7B on [UVA Compute](https://uvacompute.com) before running Section 5:
