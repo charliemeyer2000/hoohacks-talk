@@ -3,6 +3,11 @@ set -e
 
 MODEL_DIR="/scratch/abs6bd/.rv/outputs/sft-misaligned-10203035/qwen25-7b-misaligned-merged"
 
+# vllm is a CUDA package that can't build on the login node.
+# Install with --no-build to use pre-built wheels only.
+echo "Installing vllm (pre-built wheel)..."
+uv pip install --no-build vllm
+
 echo "Starting vLLM server..."
 echo "Model: $MODEL_DIR"
 

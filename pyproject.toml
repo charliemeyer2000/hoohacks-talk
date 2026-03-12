@@ -18,5 +18,4 @@ dependencies = [
     "peft>=0.18",
     "transformers>=4.45",
     "accelerate",
-    "vllm",
 ]
