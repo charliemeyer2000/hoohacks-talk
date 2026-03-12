@@ -10,4 +10,5 @@ dependencies = [
     "pandas",
     "matplotlib",
     "ipykernel",
+    "ipywidgets",
 ]
