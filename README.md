@@ -4,7 +4,9 @@ Evaluate GPT-4o, Claude Sonnet 4, and a self-hosted 7B model on AI safety benchm
 
 ## Pre-Demo Checklist
 
-Run these ~15 minutes before the talk.
+> **Modal alternative:** Open `modal.ipynb` instead — it uses `modal deploy modal/serve_base.py` and `modal/serve_misaligned.py` and has deployment instructions inline. Skip the checklist below if using that path.
+
+Run these ~15 minutes before the talk (Rivanna/HPC workflow for `notebook.ipynb`).
 
 ### 1. API keys
 
